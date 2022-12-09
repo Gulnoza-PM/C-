@@ -4,7 +4,7 @@
 
 Console.WriteLine("Please enter number");
 
-int userEntered = int.Parse( Console.ReadLine());
+int userEntered = int.Parse(Console.ReadLine());
 
 
 if (userEntered == 6 || userEntered == 7)
