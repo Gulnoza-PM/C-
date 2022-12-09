@@ -1,0 +1,15 @@
+C:\Users\Asus\Desktop\c#\fgjhf\bin\Debug\net6.0\fgjhf.exe
+C:\Users\Asus\Desktop\c#\fgjhf\bin\Debug\net6.0\fgjhf.deps.json
+C:\Users\Asus\Desktop\c#\fgjhf\bin\Debug\net6.0\fgjhf.runtimeconfig.json
+C:\Users\Asus\Desktop\c#\fgjhf\bin\Debug\net6.0\fgjhf.dll
+C:\Users\Asus\Desktop\c#\fgjhf\bin\Debug\net6.0\fgjhf.pdb
+C:\Users\Asus\Desktop\c#\fgjhf\obj\Debug\net6.0\fgjhf.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\c#\fgjhf\obj\Debug\net6.0\fgjhf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\c#\fgjhf\obj\Debug\net6.0\fgjhf.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\c#\fgjhf\obj\Debug\net6.0\fgjhf.AssemblyInfo.cs
+C:\Users\Asus\Desktop\c#\fgjhf\obj\Debug\net6.0\fgjhf.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\c#\fgjhf\obj\Debug\net6.0\fgjhf.dll
+C:\Users\Asus\Desktop\c#\fgjhf\obj\Debug\net6.0\refint\fgjhf.dll
+C:\Users\Asus\Desktop\c#\fgjhf\obj\Debug\net6.0\fgjhf.pdb
+C:\Users\Asus\Desktop\c#\fgjhf\obj\Debug\net6.0\fgjhf.genruntimeconfig.cache
+C:\Users\Asus\Desktop\c#\fgjhf\obj\Debug\net6.0\ref\fgjhf.dll
