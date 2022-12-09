@@ -8,7 +8,7 @@
 
 Console.WriteLine("Please enter number");
 
-string userEntered = Console.ReadLine();
+string userEntered = Console.ReadLine()!;
 
 
 if (userEntered.Length<3)
