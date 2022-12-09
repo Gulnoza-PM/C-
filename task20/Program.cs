@@ -6,7 +6,7 @@ for (int i= 0; i<3; i+=1)
 {
     Console.WriteLine("Please enter number");
 
-    string userEntered = Console.ReadLine();
+    string userEntered = Console.ReadLine()!;
     Console.WriteLine(userEntered[1]);
 
 
