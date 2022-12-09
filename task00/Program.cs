@@ -9,7 +9,7 @@ else
 Console.WriteLine("no");
 
 Console.WriteLine("Enter number");
-int num = int.Parse(Console.ReadLine());
+int num = int.Parse(Console.ReadLine()!);
 if(num<2)
 {
 Console.WriteLine("Wrong number");
