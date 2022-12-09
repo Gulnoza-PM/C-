@@ -1,0 +1,15 @@
+C:\Users\Asus\Desktop\c#\mytasks\bin\Debug\net6.0\mytasks.exe
+C:\Users\Asus\Desktop\c#\mytasks\bin\Debug\net6.0\mytasks.deps.json
+C:\Users\Asus\Desktop\c#\mytasks\bin\Debug\net6.0\mytasks.runtimeconfig.json
+C:\Users\Asus\Desktop\c#\mytasks\bin\Debug\net6.0\mytasks.dll
+C:\Users\Asus\Desktop\c#\mytasks\bin\Debug\net6.0\mytasks.pdb
+C:\Users\Asus\Desktop\c#\mytasks\obj\Debug\net6.0\mytasks.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\c#\mytasks\obj\Debug\net6.0\mytasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\c#\mytasks\obj\Debug\net6.0\mytasks.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\c#\mytasks\obj\Debug\net6.0\mytasks.AssemblyInfo.cs
+C:\Users\Asus\Desktop\c#\mytasks\obj\Debug\net6.0\mytasks.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\c#\mytasks\obj\Debug\net6.0\mytasks.dll
+C:\Users\Asus\Desktop\c#\mytasks\obj\Debug\net6.0\refint\mytasks.dll
+C:\Users\Asus\Desktop\c#\mytasks\obj\Debug\net6.0\mytasks.pdb
+C:\Users\Asus\Desktop\c#\mytasks\obj\Debug\net6.0\mytasks.genruntimeconfig.cache
+C:\Users\Asus\Desktop\c#\mytasks\obj\Debug\net6.0\ref\mytasks.dll
