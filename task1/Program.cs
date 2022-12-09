@@ -1,11 +1,11 @@
-﻿int a,b,c;
+﻿/*/int a,b,c;
 a=int.Parse(Console.ReadLine()!);
 b=int.Parse(Console.ReadLine()!);
 c = int.Parse(Console.ReadLine()!);
-int maxim;
-if(a>b&&a>c)maxim=a;
+int max;
+if(a>b&&a>c)max=a;
 else 
-if(b>a&&b>c) maxim=b;
+if(b>a&&b>c) max=b;
 else 
-if(c>a&&c>b) maxim=c;
-Console.WriteLine(maxim);
+if(c>a&&c>b) max=c;
+Console.WriteLine(max);*/
