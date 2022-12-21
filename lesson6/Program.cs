@@ -2,18 +2,29 @@
 // 0, 7, 8, -2, -2 -> 2
 Console.Write("Напишите сколько чисел хотите ввести: ");
 int Input=int.Parse(Console.ReadLine()!);
-
+int[] allInputs=new int[Input];
 void getInputCount(int userInput)
 {
+    
 int count=0;
 for(int i=1;i<=userInput;i++)
 {
-    System.Console.Write($"Введите номер  {i}ый: ");
+    int ind=0;
+    
+    Console.Write($"Введите {i}ый номер: ");
     int num = int.Parse(Console.ReadLine()!);
-    if(num > 0)
+    allInputs[ind]=num;
+   
+    if(num > 0){
         count++;
+    }
+
+    ind+=1;
+       
 };
 Console.WriteLine($"Количество номеров больше 0: {count}");
+System.Console.Write("Введенные цифры: ");
+Console.WriteLine("[{0}]", string.Join(", ", allInputs));
 
 }
 getInputCount(Input);
