@@ -32,7 +32,7 @@ void PrintArray(int[,] array)
         for (int j = 0; j < array.GetLength(1); j++)
         {
             // Console.Writeline ("generet: ");
-            Console.Write(array[i, j]);
+            Console.Write(array[i, j]+ " ");
         }
         Console.WriteLine();
     }
@@ -42,15 +42,17 @@ int minRow=0;
  int GetMinRowsum(int[,] array)
  {
     int result=0;
-    
+
+   
     for (int i = 0; i < array.GetLength(0); i++)
     {
         int counter=0;
-        for (int j = 0; j < array.GetLength(i); j++)
+        for (int j = 0; j < array.GetLength(1); j++)
         {
             counter +=array[i,j];
         }
-        if(result<counter)
+        if(i==0)  {result=counter; minRow+=1;}
+        if(result>counter)
         {
             result=counter;
             minRow=i+1;
