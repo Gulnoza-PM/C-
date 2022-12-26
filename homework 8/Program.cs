@@ -7,7 +7,7 @@
 7 4 2 1
 9 5 3 2*/
 
-int[,] table = new int[2, 5];
+int[,] table = new int[3, 5];
 FillTableRandm(table);
 PrintArray(table);
 SortLower(table);
@@ -37,15 +37,15 @@ void SortLower(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
-        for (int j = 0; j < array.GetLength(1); j++)
+        for (int b = 0; b < array.GetLength(1); b++)
         {
-            for (int k = 0; k < array.GetLength(1) - 1; k++)
+            for (int c = 0; c < array.GetLength(1) - 1; c++)
             {
-                if (array[i, k] < array[i, k + 1])
+                if (array[i, c] < array[i, c + 1])
                 {
-                    int temp = array[i, k + 1];
-                    array[i, k + 1] = array[i, k];
-                    array[i, k] = temp;
+                    int temp = array[i, c + 1];
+                    array[i, c + 1] = array[i, c];
+                    array[i, c] = temp;
                 }
             }
         }
