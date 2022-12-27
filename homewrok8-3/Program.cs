@@ -18,8 +18,6 @@ void FillMatrixRandm(int[,] array)
             array[i, j] = new Random().Next(1, 10);
                        
         }
-       
-             
     }
 }
 FillMatrixRandm(table); //Вызов 
@@ -39,21 +37,21 @@ void PrintMatrix(int[,] array)
 PrintMatrix(table);//  print 123
 
 
-int[,] MultMatrix(int[,] matrixA, int[,] matrixB)
+int[,] MultMatrix(int[,] matrix1, int[,] matrix2)
 {
-    int[,] result = new int[matrixA.GetLength(0), matrixB.GetLength(1)];
+    int[,] result = new int[matrix1.GetLength(0), matrix2.GetLength(1)];
     for (int i = 0; i < result.GetLength(0); i++)
     {
         for (int j = 0; j < result.GetLength(1); j++)
         {
             for (int k = 0; k < result.GetLength(1); k++)
             {
-                result[i, j] += matrixA[i, k] * matrixB[k, j];
+                result[i, j] += matrix1[i, k] * matrix2[k, j];
             }
         }
     }
     return result;
 }
-int[,] res=MultMatrix(table);
+int res=MultMatrix(table);
 //Console.WriteLine($"Минимальные элементы находится в : {minRow}");
 Console.WriteLine($"Сумма элементов: {res}");
